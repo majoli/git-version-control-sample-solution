@@ -33,6 +33,7 @@ Another thing that you would need to install is `mailutils`, to do that run the 
 ```bash
 sudo apt install mailutils
 ```
+
 ## Configuring SSMTP
 
 Now that you have `ssmtp` installed, in order to configure it to use your SMTP server when sending emails, you need to edit the SSMTP configuration file.
@@ -69,17 +70,17 @@ You can run this directly in your terminal or include it in your bash scripts.
 
 ## Sending A File with SSMTP (optional)
 
-If you need to send files as attchments, you can use `mpack`.
+If you need to send files as attachments, you can use `mpack`.
 
 To install `mpack` run the following command:
 
 ```bash
-sudo apt install pack
+sudo apt install mpack
 ```
 
-Next, in oder to send an email with a file attached, run the following command.
+Next, in order to send an email with a file attached, run the following command.
 
-```dash
+```bash
 mpack -s "<^>Your Subject here<^>" your_file.zip <^>your_recepient_email@yourdomain.com<^>
 ```
 
@@ -87,8 +88,8 @@ The above command would send an email to `<^>your_recepient_email@yourdomain.com
 
 ## Conclusion
 
-SMTP is a great and reliable way to implement SMTP email functionality directly in bash scripts.
+SSMTP is a great and reliable way to implement SMTP email functionality directly in bash scripts.
 
 For more information about SSMTP I would recommend checking the official documentation [here](https://wiki.archlinux.org/index.php/SSMTP).
 
->{otice} This content was initially posted on the [DigitalOcean community forum](https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp).
+>{notice} This content was initially posted on the [DigitalOcean community forum](https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp).
