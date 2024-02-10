@@ -125,7 +125,7 @@ The ouput for:
 Would be the following:
 
 ```bash
-Hello there Babby
+Hello there Bobby
 Hello there buddy!
 Hello there Bobby buddy!
 ```
