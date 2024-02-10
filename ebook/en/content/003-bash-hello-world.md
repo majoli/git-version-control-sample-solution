@@ -10,7 +10,7 @@ To do that, open the `devdojo.sh` file again and add the following after the `#!
 echo "Hello World!"
 ```
 
-Save the flile and exit.
+Save the file and exit.
 
 After that make the script executable by running:
 
@@ -18,13 +18,13 @@ After that make the script executable by running:
 chmod +x devdojo.sh
 ```
 
-After that exedute the file:
+After that execute the file:
 
 ```bash
 ./devdojo.sh
 ```
 
-You will see a "Hallo World" message on the screen
+You will see a "Hello World" message on the screen.
 
 Another way to run the script would be:
 
