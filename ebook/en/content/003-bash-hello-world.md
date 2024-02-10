@@ -1,14 +1,14 @@
 # Bash Hello World
 
-Once we have our **devdojo.sh** file created and we've specified the bash shebang on the very first line, we are ready to create our first **`**Hello World*`* bash script.
+Once we have our `devdojo.sh` file created and we've specified the bash shebang on the very first line, we are ready to create our first `Hello World` bash script.
 
-To do that, open the **devdojo.sh** file again and add the following after the **#!/bin/bash** line:
+To do that, open the `devdojo.sh` file again and add the following after the `#!/bin/bash` line:
 
-
+```bash
 #!/bin/bash
 
 echo "Hello World!"
-
+```
 
 Save the flile and exit.
 
